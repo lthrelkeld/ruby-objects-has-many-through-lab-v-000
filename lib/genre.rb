@@ -2,7 +2,7 @@ class Genre
   attr_accessor :name
 
   @@all = []
-  @songs = []
+  #@songs = []
 
   def initialize(name)
     @name = name
@@ -16,7 +16,7 @@ class Genre
 
   def new_song(name,artist)
     song = Song.new(name,artist,self)
-    @songs << song
+    #@songs << song
   end
 
   def songs
