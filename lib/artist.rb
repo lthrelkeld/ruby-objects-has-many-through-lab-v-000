@@ -18,4 +18,7 @@ class Artist
     @songs << song
   end
 
+  def songs
+  end
+
 end
